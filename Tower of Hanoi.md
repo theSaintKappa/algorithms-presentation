@@ -17,11 +17,9 @@ section.center > * {
 
 <!-- _class: center -->
 
-# Problem Wież Hanoi<br>(Tower of Hanoi)
+# Problem Wież Hanoi 🗼<br>(Tower of Hanoi)
 
 Wojtek Zrałek
-
-![bg w:1175 opacity:0.3 drop-shadow](./assets/hanoi.png)
 
 ---
 

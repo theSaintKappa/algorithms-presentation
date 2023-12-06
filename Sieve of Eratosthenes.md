@@ -17,7 +17,7 @@ section.center > * {
 
 <!-- _class: center -->
 
-# Algorytm Sito Eratostenesa<br>(Sieve of Eratosthenes)
+# Algorytm Sito Eratostenesa 🔢<br>(Sieve of Eratosthenes)
 
 Wojtek Zrałek
 
