@@ -10,7 +10,7 @@ _class: lead
 ---
 
 <style>
-section.center h1, section.center h4, section.center p {
+section.center > * {
   text-align: center;
 }
 </style>
@@ -23,11 +23,11 @@ Wojtek Zrałek
 
 ---
 
-# Algorytm Sito Eratostenesa
+# Wprowadzenie 🌟
 
 > Służy on do znajdowania liczb pierwszych w danym przedziale `[2 ,n]`
 
-> Został wymyślony przez greckiego matematyka Eratostenesa* z Cyreny, który żył w latach *276* - *194 p.n.e.\*
+> Został wymyślony przez greckiego matematyka Eratostenesa z Cyreny, który żył w latach _276_ - _194 p.n.e._
 
 > Opiera się on na eliminacji liczby złożonych, czyli takich, które mają więcej niż dwa dzielniki, z przedziału `[2 ,n]` poprzez wykreślanie wielokrotności liczb pierwszych.
 
@@ -37,11 +37,11 @@ Wojtek Zrałek
 
 # Schemat blokowy
 
-![bg right:72.5% 75.5%](./assets/block-diagram.png)
+![bg right:72.5% 72.5%](./assets/block-diagram.png)
 
 ---
 
-# Pseudokod
+# Pseudokod 🧩
 
 ```python
 n = input
@@ -67,14 +67,14 @@ for a = 2, 3, 4, ..., n:
 
 ---
 
-# Kod algorytmu w Javie
+# Kod algorytmu w Javie ☕
 
 ```java
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class SieveOfEratosthenes {
+    void main() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Podaj liczbę n: ");
         int n = scanner.nextInt();
@@ -106,16 +106,17 @@ public class Main {
 
 ---
 
-# Złożoność obliczeniowa
+# Złożoność obliczeniowa ⏱️
 
 > Dla zakresu do n, algorytm Sita Eratostenesa ma złożoność obliczeniową **`O(n log log n)`**.
-> Jest to złożoność _asymptotyczna_, ponieważ zależy ona od rozmiaru danych wejściowych.
+
+> Jest to złożoność _<ins>asymptotyczna</ins>_, ponieważ zależy ona od rozmiaru danych wejściowych.
 
 > Algorytm jest szybszy od takiego sprawdzającego każdą liczbę z zakresu od 2 do n.
 
 ---
 
-# Operacja dominująca w algorytmie
+# Operacja dominująca w algorytmie 📚
 
 > W algorytmie Sita Eratostenesa operacją dominującą jest oznaczanie (czyli "wykreslanie" lub "odznaczanie") wielokrotności liczb pierwszych.
 
@@ -125,7 +126,7 @@ public class Main {
 
 # Zanimowanie działania algorytmu
 
-![bg right:64% 90%](./assets/algorithm-animation.gif)
+![bg right:64% 80% drop-shadow](./assets/algorithm-animation.gif)
 _Dla tablicy n = 120_
 
 ---
@@ -138,9 +139,9 @@ _Dla tablicy n = 120_
 
 <!-- _class: center -->
 
-# Źródła
+# Źródła 🔗
 
-#### [Wikipedia](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+#### [Wikipedia](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 #### [zpe.gov.pl](https://zpe.gov.pl/pdf/P7MwVxKT0)
 
